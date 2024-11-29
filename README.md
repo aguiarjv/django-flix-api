@@ -1,6 +1,6 @@
 # Django Flix API
 
-This project is a REST API built with Django and Django Rest Framework. The user is able to manage movies, genres, actors and reviews. Every action will be saved into a Postgres database running in a docker container connected to the Django application.
+This project is a RESTful API built with Django and Django Rest Framework. The user is able to manage movies, genres, actors and reviews. Every action will be saved into a Postgres database running in a docker container connected to the Django application.
 
 ## Table of Contents
 - [Features](#features)
@@ -10,7 +10,7 @@ This project is a REST API built with Django and Django Rest Framework. The user
 ---
 
 ## Features
-- **REST API built with DRF**: Django Rest Framework classes were used to build the CRUD operations for all the routes.
+- **RESTful API built with DRF**: Django Rest Framework classes were used to build the CRUD operations for all the routes.
 - **API Documentation**: There is a Browsable API automatically provided by the Django Rest Framework that details the usage of each endpoint.
 - **Dockerized Database**: Docker was used to prepare a PostgreSQL database that will be accessed by the Django application.
 
