@@ -1,19 +1,22 @@
 # Django Flix API
 
+This project is a REST API built with Django and Django Rest Framework. The user is able to manage movies, genres, actors and reviews. Every action will be saved into a Postgres database running in a docker container connected to the Django application.
 
 ## Table of Contents
 - [Features](#features)
-- [Endpoints](#endpoints)
+- [API Endpoints](#api-endpoints)
 - [Installation and Setup](#installation-and-setup)
 
 ---
 
-
 ## Features
+- **REST API built with DRF**: Django Rest Framework classes were used to build the CRUD operations for all the routes.
+- **API Documentation**: There is a Browsable API automatically provided by the Django Rest Framework that details the usage of each endpoint.
+- **Dockerized Database**: Docker was used to prepare a PostgreSQL database that will be accessed by the Django application.
 
 ## API Endpoints
 
-To get more information on any of the endpoints just try to access them on the browser and check
+To get more information on any of the endpoints just try to access it on the browser and check
 the information provided by the Django Rest Framework Browsable API.
 
 | Endpoint                    | Method | Description                 |
@@ -42,10 +45,6 @@ the information provided by the Django Rest Framework Browsable API.
 | ```/api/v1/reviews/<pk>/``` | GET    | Get information of a review |
 | ```/api/v1/reviews/<pk>/``` | PUT    | Update a review             |
 | ```/api/v1/reviews/<pk>/``` | DELETE | Delete a review             |
-
-
-
-
 
 ## Installation and Setup
 
